@@ -1,0 +1,16 @@
+{
+	"python.autoComplete.extraPaths": [
+		"/home/prestto/ros2_ws/build/turtlesim_catch_them_all",
+		"/home/prestto/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages",
+		"/home/prestto/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+		"/home/prestto/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages",
+		"/opt/ros/iron/lib/python3.10/site-packages"
+	],
+	"python.analysis.extraPaths": [
+		"/home/prestto/ros2_ws/build/turtlesim_catch_them_all",
+		"/home/prestto/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages",
+		"/home/prestto/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+		"/home/prestto/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages",
+		"/opt/ros/iron/lib/python3.10/site-packages"
+	]
+}
