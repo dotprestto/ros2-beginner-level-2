@@ -29,7 +29,7 @@
         </inertial>
     </xacro:macro>
 
-    <xacro:macro name="sphere_inertia" params="massa radius xyz rpy">
+    <xacro:macro name="sphere_inertia" params="mass radius xyz rpy">
         <inertial>
             <origin xyz="${xyz}" rpy="${rpy}" />
             <mass value="${mass}" />
