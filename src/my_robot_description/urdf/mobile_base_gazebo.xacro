@@ -15,17 +15,12 @@
 
 	<gazebo reference="caster_wheel_link">
 		<material>Gazebo/Grey</material>
+		<mu1 value="0.1" />
+		<mu2 value="0.1" />
 	</gazebo>
 
 	<gazebo>
 		<plugin name="diff_drive_control" filename="libgazebo_ros_diff_drive.so">
-
-			<ros>
-
-				<!-- Add a namespace -->
-				<namespace>/test</namespace>
-
-			</ros>
 
 			<!-- Update rate in Hz -->
 			<update_rate>50</update_rate>
@@ -39,8 +34,8 @@
 			<wheel_diameter>0.2</wheel_diameter>
 
 			<!-- limits -->
-			<!-- <max_wheel_torque>20</max_wheel_torque> 
-			<max_wheel_acceleration>1.0</max_wheel_acceleration> -->
+			<!-- <max_wheel_torque>20</max_wheel_torque>  -->
+			<!-- <max_wheel_acceleration>1.0</max_wheel_acceleration> -->
 
 			<!-- input -->
 			<!-- <command_topic>cmd_vel</command_topic> -->
