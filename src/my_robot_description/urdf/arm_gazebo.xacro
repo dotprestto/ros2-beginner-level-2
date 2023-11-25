@@ -20,7 +20,7 @@
 
 			<!-- Name of joints in the model whose states will be published. -->
 			<joint_name>arm_base_forearm_joint</joint_name>
-			<joint_name>foream_hand_joint</joint_name>
+			<joint_name>forearm_hand_joint</joint_name>
 		</plugin>
 	</gazebo>
 
